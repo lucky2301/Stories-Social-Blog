@@ -1,0 +1,30 @@
+{
+  "name": "stories",
+  "version": "1.0.0",
+  "description": "A social media for dummies",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev-start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-lucky2301:lucky2301/Stories-Social-Blog.git"
+  },
+  "keywords": [
+    "social",
+    "media"
+  ],
+  "author": "Nar",
+  "license": "ISC",
+  "dependencies": {
+    "dot": "^1.1.3",
+    "dotenv": "^10.0.0",
+    "env": "0.0.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.12"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
